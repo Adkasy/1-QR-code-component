@@ -14,10 +14,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-color: lightsteelblue;
 }
 
 .container {
-    height: 497px;
+    height: 482px;
     background-color: white;
     border-radius: 20px;
     padding: 16px 16px 0 16px;
@@ -45,11 +47,13 @@ body {
 .title {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    font-size: 23px;
+    font-size: 22px;
+    padding: 0 5px;
 }
 
 .description {
     color: grey;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 15.5px;
+    padding: 0 18px;
 }
